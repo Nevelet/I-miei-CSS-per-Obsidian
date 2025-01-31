@@ -1,0 +1,35 @@
+/* h1 (folded) */
+.HyperMD-header-1 > .cm-fold-indicator.is-collapsed ~ img.cm-widgetBuffer:last-of-type {
+    margin-bottom: 1em !important;
+}
+
+/* h2 (folded) */
+.HyperMD-header-2 > .cm-fold-indicator.is-collapsed ~ img.cm-widgetBuffer:last-of-type {
+    margin-bottom: 2em !important;
+}
+
+/* h3 (folded) */
+.HyperMD-header-3 > .cm-fold-indicator.is-collapsed ~ img.cm-widgetBuffer:last-of-type {
+    margin-bottom: 1.5em !important;
+}
+
+/* h2 (space) */
+.HyperMD-header-2 img.cm-widgetBuffer:last-of-type {
+    margin-bottom: 0.7em !important;
+
+}
+
+/* h3 (space) */
+.HyperMD-header-3 img.cm-widgetBuffer:last-of-type {
+    margin-bottom: 0.7em !important;
+}
+
+.markdown-source-view :is(.cm-line + .cm-line) {
+   padding-top: 0.6em;
+}
+
+
+
+
+
+

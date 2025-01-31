@@ -1,0 +1,10 @@
+
+
+/* Modifica l'interlinea per tutto il testo */
+.markdown-preview-view,
+.cm-s-obsidian,
+.cm-editor {
+	--line-height-normal: 1.8;
+}
+
+

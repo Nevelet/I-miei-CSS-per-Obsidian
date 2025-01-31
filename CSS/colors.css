@@ -1,0 +1,111 @@
+/* Definizione del colore per tema chiaro e scuro */
+
+.theme-light /* Colori per il tema chiaro */ {
+	--h1-color: red; /* Colore Titolo H1 */
+	--h2-color: #ff5555; /* Colore Titolo H2 */
+	--h3-color: #F49145; /* Colore Titolo H3 */
+    --h4-color: #ff79c6; /* Colore Titolo H4 */
+	--h5-color: #94F434; /* Colore Titolo H5 */
+	--h6-color: #bd93f9; /* Colore Titolo H6 */
+	--italics-color: #ff8d0f; /* Colore corsivo */
+	--bold-color: #104000; /* Colore grassetto */
+	--testo-color: #00008c; /* Colore testo paragrafo */
+	--bg-h2: #d9d900; /* Background Titolo H2 (aggiungi bg-h2 nella proprietà cssclasses su Obsidian) */
+	
+	/* Colori sfondo */
+    --background-primary: #ffefbf; /* Colore sfondo primario (nota, settings ecc.) */
+	--background-secondary-alt: #fff2cc; /* Colore sfondo superiore quando attivo */
+    --background-secondary: #fff2cc; /* Colore sfondo secondario (barra laterale ecc.) */
+    --text-normal: #333333; /* Colore testo secondario (settings, barra laterale ecc.) */
+    --interactive-accent: #d56a00; /* Colore sfondo selettori, tasti ecc. */
+	--interactive-normal: #ffffff; /* Colore selettore setting ecc. */
+	--bg1: #fff2cc; /* Barra applicazione per Minimal Theme */
+	--bg2: #fff2cc; /* Barra ribbon per Minimal Theme */
+	
+}
+
+.theme-dark /* Colori per il tema scuro */ {
+	--h1-color: red; /* Colore Titolo H1 */
+	--h2-color: #ff5555; /* Colore Titolo H2 */
+	--h3-color: #F49145; /* Colore Titolo H3 */
+    --h4-color: #ff79c6; /* Colore Titolo H4 */
+	--h5-color: #94F434; /* Colore Titolo H5 */
+	--h6-color: #bd93f9; /* Colore Titolo H6 */
+	--italics-color: #ffb86c; /* Colore corsivo */
+	--bold-color: #94F434; /* Colore grassetto */
+	--bg-h2: #d9d900; /* Background Titolo H2 (aggiungi bg-h2 nella proprietà cssclasses su Obsidian) */
+	
+	/* Colori sfondo */
+    --background-primary: #0f0f0f; /* Colore sfondo primario (nota, settings ecc.) */
+	--background-secondary-alt: #1f1f1f; /* Colore sfondo superiore quando attivo */
+    --background-secondary: #1f1f1f; /* Colore sfondo secondario (barra laterale ecc.) */
+    --text-normal: #e0e0e0; /* Colore testo secondario (settings, barra laterale ecc.) */
+    --interactive-accent: #ff4500; /* Colore sfondo selettori, tasti ecc. */
+	--interactive-normal: #ffffff; /* Colore selettore setting ecc. */
+	--bg1: #fff2cc; /* Barra applicazione per Minimal Theme */
+	--bg2: #fff2cc; /* Barra ribbon per Minimal Theme */
+	
+}
+
+
+
+/* Testo */
+.markdown-rendered p, .markdown-source-view.mod-cm6 .cm-content > * {
+    margin: 0 !important;
+    display: block;
+	color: var(--testo-color);
+}
+
+/* Italics */
+.cm-em, em {
+    color: var(--italics-color) !important;
+}
+
+/* Bold */
+.cm-strong, strong {
+    color: var(--bold-color) !important;
+}
+
+/* headings for editor and preview */
+.cm-header-1, .markdown-preview-view h1
+{  
+	color: var(--h1-color) !important;
+}
+
+.cm-header-2, .markdown-preview-view h2
+{  
+	color: var(--h2-color) !important;
+}
+
+.cm-header-3, .markdown-preview-view h3
+{
+    color: var(--h3-color) !important;
+}
+
+.cm-header-4, .markdown-preview-view h4 {
+    color: var(--h4-color) !important;
+}
+
+.cm-header-5, .markdown-preview-view h5
+{
+	color: var(--h5-color) !important;
+}
+
+.cm-header-6, .markdown-preview-view h6
+{   
+	color: var(--h6-color) !important;
+}
+
+
+
+/* Heading Color Background */
+.cm-s-obsidian.bg-h2 .cm-line.HyperMD-header-2,
+.markdown-preview-view.bg-h2 h2 {
+    background-color: var(--bg-h2);
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+    color: white;
+}
+
+

@@ -1,0 +1,37 @@
+
+
+.HyperMD-header-1, .markdown-rendered h1 {
+
+	font-size: 1.802em;
+
+}
+
+.HyperMD-header-2, .markdown-rendered h2 {
+	
+	font-size: 1.602em;
+
+}
+
+.HyperMD-header-3, .markdown-rendered h3 {
+	
+	font-size: 1.424em;
+
+}
+
+.HyperMD-header-4, .markdown-rendered h4 {
+	
+	font-size: 1.266em;
+
+}
+
+.HyperMD-header-5, .markdown-rendered h5 {
+	
+	font-size: 1.125em;
+
+}
+
+.HyperMD-header-6, .markdown-rendered h6 {
+	
+	font-size: 1em;
+
+}

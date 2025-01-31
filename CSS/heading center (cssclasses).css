@@ -1,0 +1,24 @@
+
+
+/* H1 */
+.markdown-preview-view.h1-center h1,
+.h1-center .HyperMD-header.HyperMD-header-1 {
+    text-align: center;
+}
+
+/* H2 */
+.markdown-preview-view.h2-center h2,
+.h2-center .HyperMD-header.HyperMD-header-2 {
+    text-align: center;
+}
+
+/* H3 */
+.markdown-preview-view.h3-center h3,
+.h3-center .HyperMD-header.HyperMD-header-3 {
+    text-align: center;
+}
+
+
+
+
+
